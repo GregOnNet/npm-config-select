@@ -70,4 +70,4 @@ $ npm install --save-dev npm-package-select
     }
   }
   ```
-  > This gulp task is written with [gulpfile.ts](https://www.npmjs.com/package/gulpfile.ts).
+  > This gulp task is written with [gulpclass](https://www.npmjs.com/package/gulpclass).

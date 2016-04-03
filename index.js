@@ -1,3 +1,3 @@
-var npmConfig = require('./dist/npm-config');
+var packageSelect = require('./dist/npm-package-select');
 
-module.exports = npmConfig.NpmConfig;
+module.exports = packageSelect.NpmPackageSelect;

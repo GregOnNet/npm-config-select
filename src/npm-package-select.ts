@@ -1,7 +1,7 @@
 import {NpmConfigGroup} from './npm-config-group';
 import * as path from 'path';
 
-export class NpmConfig {
+export class NpmPackageSelect {
   packages: JSON;
 
   constructor(pathToNpmConfig: string) {

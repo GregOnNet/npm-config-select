@@ -1,8 +1,9 @@
 "use strict";
 var npm_config_group_1 = require('./npm-config-group');
+var path = require('path');
 var NpmConfig = (function () {
     function NpmConfig(pathToNpmConfig) {
-        this.packages = require(pathToNpmConfig);
+        this.packages = require(path.join(process.cwd(), pathToNpmConfig));
     }
     NpmConfig.prototype.groups = function () {
         var _this = this;

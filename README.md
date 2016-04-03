@@ -1,5 +1,5 @@
 # npm-package-select
-> Select files inside node_modules/ reading a configuration file.
+Select files inside node_modules/ reading a configuration file.
 
 This module allows the selection of certain files of a `npm-package`.
 It can be used with [gulp](https://www.npmjs.com/package/gulp) to copy distribution files of packages to any destination you want.

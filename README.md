@@ -12,7 +12,7 @@ $ npm install --save-dev npm-package-select
 ```
 
 ## Usage
-> Make sure that all configured packages are installed. `npm-package-select` will can not download a missing package.
+> Make sure that all configured packages are installed. `npm-package-select`  cannot download a missing package.
 
 1. Create a `npmconfig.json` specifying all needed files. The path of each file is relative to the corresponding npm-package.
 

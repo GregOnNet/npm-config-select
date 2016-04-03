@@ -37,7 +37,7 @@ $ npm install --save-dev npm-package-select
 
 2. Create a gulp task to copy the selected files to copy them to any destination.
 
-  ```ts
+  ```typescript
   import {Gulpclass, Task, SequenceTask} from 'gulpclass/Decorators';
   import * as gulp from 'gulp';
 

@@ -7,6 +7,10 @@
     "build": "tsc --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GregOnNet/npm-package-select.git"
+  },
   "keywords": [],
   "author": "Gregor Woiwode <gregor.woiwode@gmail.com>",
   "license": "ISC",

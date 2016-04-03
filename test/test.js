@@ -1,4 +1,4 @@
-var NpmConfig = require('../dist/npm-config');
+var NpmConfig = require('../index');
 console.log(NpmConfig);
-conf = new NpmConfig.NpmConfig('./npmconfig.json');
+conf = new NpmConfig('./npmconfig.json');
 console.log(conf.groups());

@@ -2,7 +2,7 @@
   "name": "npm-package-select",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/npm-config.js",
+  "main": "index.js",
   "scripts": {
     "build": "tsc --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"

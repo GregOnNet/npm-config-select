@@ -1,5 +1,5 @@
-var NpmConfig = require('../index');
-conf = new NpmConfig('./npmconfig.json');
+var NpmPackageSelect = require('../index');
+conf = new NpmPackageSelect('./npmconfig.json');
 
-console.log(NpmConfig);
+console.log(NpmPackageSelect);
 console.log(conf.groups());

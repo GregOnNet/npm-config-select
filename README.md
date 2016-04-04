@@ -21,6 +21,7 @@ Make sure that all configured packages are installed. `npm-package-select`  cann
 1. Create a `npmconfig.json` specifying all needed files. The path of each file is relative to the corresponding npm-package.
 
     **Example** The compiled source of  [requirejs](https://www.npmjs.com/package/requirejs) is located in `bin/r.js`. If you want to use requirejs you have to use the mentioned path before.
+    In this sample `js` and `css` represent **groups**. Groups give the possibility to copy the specified sources into different destination directories.
 
     ```json
     {
@@ -36,8 +37,6 @@ Make sure that all configured packages are installed. `npm-package-select`  cann
       }]
     }
     ```
-
-    In this sample `js` and `css` represent **groups**. Groups give the possibility to copy the specified sources into different destination directories.
 
 2. Create a gulp task to copy the selected files to copy them to any destination.
 

@@ -79,5 +79,6 @@ Make sure that all configured packages are installed. `npm-package-select`  cann
 ## Issues
 
 If you notice an error or unexpected behavior than please [open an issue](https://github.com/GregOnNet/npm-package-select/issues) on GitHub.
+Ideas and pull-requests are welcome as well.
 
 Thank you.

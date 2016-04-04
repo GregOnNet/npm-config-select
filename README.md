@@ -76,3 +76,9 @@ Make sure that all configured packages are installed. `npm-package-select`  cann
     }
     ```
     > This gulpfile is written with [gulpclass](https://www.npmjs.com/package/gulpclass).
+
+## Issues
+
+If you notice an error or unexpected behavior than please [open an issue](https://github.com/GregOnNet/npm-package-select/issues) on GitHub.
+
+Thank you.
